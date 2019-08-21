@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "img-item": "/colorui/components/image-item",
+    "imt-audio": "/colorui/components/imt-audio",
+    "format-date": "/colorui/components/formatDate"
+  }
+}

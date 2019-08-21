@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "format-date": "/colorui/components/formatDate",
+    "imt-audio": "/colorui/components/imt-audio"
+  }
+}

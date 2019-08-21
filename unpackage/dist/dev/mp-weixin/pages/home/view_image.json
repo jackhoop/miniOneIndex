@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "img-item": "/colorui/components/image-item",
+    "uni-fab": "/colorui/components/uni-fab"
+  }
+}

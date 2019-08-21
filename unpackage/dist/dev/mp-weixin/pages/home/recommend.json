@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "img-item": "/colorui/components/image-item"
+  }
+}

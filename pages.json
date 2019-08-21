@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/home/home",
+		    "style" : {
+		    	"enablePullDownRefresh": true
+		    }
+		},{
+			"path": "pages/index/index",
+			"style" : {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/folder",
+			"style" : {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/image",
+			"style": {}
+		},
+		{
+			"path": "pages/home/view_image",
+			"style": {}
+		},
+		{
+			"path": "pages/home/recommend",
+			"style" : {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/home/classification",
+			"style" : {
+				"enablePullDownRefresh": true
+			}
+		}
+        ,{
+            "path" : "pages/test/test",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/my",
+           "style" : {
+           	"enablePullDownRefresh": true
+           }
+        }
+    ],
+	"tabBar": {
+	"color": "#7A7E83",
+	"selectedColor": "#1296db",
+	"borderStyle": "black",
+	"backgroundColor": "#ffffff",
+	"list": [{
+	  "pagePath": "pages/home/home",
+	  "iconPath": "static/tabbar/home_light.png",
+	  "selectedIconPath": "static/tabbar/home_fill_light.png",
+	  "text": "最新"
+	},{
+	  "pagePath": "pages/home/recommend",
+	  "iconPath": "static/tabbar/hot.png",
+	  "selectedIconPath": "static/tabbar/hot_cur.png",
+	  "text": "推荐"
+	},{
+	  "pagePath": "pages/home/classification",
+	  "iconPath": "static/tabbar/order.png",
+	  "selectedIconPath": "static/tabbar/order_fill.png",
+	  "text": "分类"
+	},{
+	 "pagePath": "pages/my/my",
+	  "iconPath": "static/tabbar/user.png",
+	  "selectedIconPath": "static/tabbar/user_cur.png",
+	  "text": "我的"
+	}]
+	},
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#39b54a",
+		"navigationBarTitleText": "ColorUi for UniApp",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"requiredBackgroundModes": ["audio", "location"],
+	"disableScroll":true,
+	"enablePullDownRefresh":false,
+	"usingComponts":true
+}

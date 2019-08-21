@@ -1,0 +1,73 @@
+
+.cu-avatar {
+	font-variant: small-caps;
+	margin: 0;
+	padding: 0;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	text-align: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background-color: #FFF;
+	color: #fff;
+	white-space: nowrap;
+	position: relative;
+	width: 64rpx;
+	height: 64rpx;
+	background-size: cover;
+	background-position: center;
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+.cu-tag.badge {
+		border-radius: 200rpx;
+		position: static;
+		top: 0rpx;
+		right: 0rpx;
+		font-size: 20rpx;
+		padding: 0rpx 10rpx;
+		height: 28rpx;
+		color: #fff;
+}
+.cu-tag.video{
+		font-size: 50rpx;
+		border-radius:30rpx;
+		top: 0rpx;
+		right: 0rpx;
+}
+/* .cu-tag[class*="cuIcon-"] { */
+/* 	width: 32upx; */
+/* 	height: 32upx; */
+/* 	top: 0upx; */
+/* 	right: 0upx; */
+/* } */
+.cu-list.menu-avatar.sm-border>.cu-item:after {
+		left: 30rpx;
+		width: calc(200% - 120rpx)
+}
+.cu-list.menu-avatar>.cu-item .action {
+		width: 60rpx;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center; 
+		-webkit-box-align: center; 
+		-webkit-align-items: center; 
+		    -ms-flex-align: center; 
+		        align-items: center;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		height: 90%;
+		text-align: center
+}
+

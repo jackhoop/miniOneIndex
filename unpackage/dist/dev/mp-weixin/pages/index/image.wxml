@@ -1,0 +1,1 @@
+<view><cu-custom vue-id="1" bgColor="bg-gradual-blue" isBack="{{true}}" bind:__l="__l" vue-slots="{{['backText','content']}}"><view slot="backText"></view><view slot="content">{{title}}</view></cu-custom><img-item vue-id="2" list="{{list}}" bind:__l="__l"></img-item><view class="{{['cu-load',!isLoad?'loading':'over']}}"></view></view>

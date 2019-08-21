@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "img-item": "/colorui/components/image-item",
+    "format-date": "/colorui/components/formatDate"
+  }
+}

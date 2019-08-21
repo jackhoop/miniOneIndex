@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "format-date": "/colorui/components/formatDate"
+  },
+  "component": true
+}
