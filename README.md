@@ -23,6 +23,8 @@ QQ群：781407362 或扫描二维码。
 - 数据库：存储Token数据， 创建表token 把database_export-wWsxvKLEWJJj.json 导入云数据库，然后把值改为自己的。
 - 云函数：获取OneDrive accessToken,把token函数目录复制到cloudfunctions目录，把index.js中的环境ID改为自己的，然后目录右键 上传部署 上传触发器
 
+详细教程文章参考：https://bftudou.com/archives/139
+
 #### 配置：
 
 1. 小程序后台request合法域名域名添加：	
